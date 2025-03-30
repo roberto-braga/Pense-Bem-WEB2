@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='Pense.bem.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Pense Bem</div>
+        <div class="screen" id="screen">1 : 0</div>
+        <div class="attempts" id="attempts">Tentativa 1 de 3</div>
+        <div class="buttons">
+            <button class="button" onclick="selectAnswer('A')">A</button>
+            <button class="button" onclick="selectAnswer('B')">B</button>
+            <button class="button" onclick="selectAnswer('C')">C</button>
+            <button class="button" onclick="selectAnswer('D')">D</button>
+        </div>
+        <button class="restart" onclick="restartGame()">Reiniciar Jogo</button>
+    </div>
+    
+    
+    <script src="Pense.bem.js"></script>
+</body>
+</html>
